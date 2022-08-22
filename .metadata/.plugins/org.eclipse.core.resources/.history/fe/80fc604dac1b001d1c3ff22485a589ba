@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="ServletCode2" method="get">
+	<h3>Enter the data</h3>
+		<label>name</label>
+		<input type="text" name="name"><br>
+		<label>id</label>
+		<input type="text" name="id"><br>
+		<label>percent</label>
+		<input type="text" name="percent"><br>
+		<label>sem</label>
+		<input type="text" name="sem"><br>
+	<input type="submit" value="insert">
+	</form>
+</body>
+</html>

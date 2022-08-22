@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 	xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance"
+		sxi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans
+		
+		<bean class="comto.Hello" id="h1">
+		<property name="message" value="Welcome to Spring"></property>
+		</bean>
+		
+</beans> class="com.to.Hello" id="h2">
+	<property name="message" value="welcomen to My App"></property>
+	</bean>
+	
+	</beans> class="com.to.Employee" id="e1">
+		<property name="employeeID" value="123456"></property>
+		<property name="employeeName" value="Amit"></property>
+		
+	</bean>
+	
+	</beans>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cookies example - welcome page</title>
+</head>
+<body>
+<h3>Enter the Student Details</h3> <br>
+<form>action="program1">
+<label>Sid</label>
+<input type="text" name="Sid"><br><br>
+<label>Sname</label>
+<input type="text" name="sname"><br><br>
+<label>Percentage</label>
+<input type="text" name="percent"><br><br>
+<label>Sem</label>
+<input type="text" name="sem"><br><br>
+<input type="submit">
+</form>
+</body>
+</html>

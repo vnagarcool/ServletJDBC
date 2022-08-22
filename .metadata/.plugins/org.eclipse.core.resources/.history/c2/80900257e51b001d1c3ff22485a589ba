@@ -1,0 +1,12 @@
+package com.p1;
+
+public class StudentApp {
+	public static void main(String[] args) {
+		Student s1 = new Student();
+		s1.setSid(1);
+		s1.setSname("vinod");
+		
+		HibernateManager hbm = new HibernateManager();
+		hbm.saveObj(s1);
+	}
+}
